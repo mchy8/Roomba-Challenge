@@ -35,7 +35,7 @@ async function runTestCases(testCases) {
 }
 
 // runTestCases(testInputs);
-//run uploaded input.txt
+//run uploaded contents of input.txt
 function runInput(){
   interpretFile(document.getElementById("input").value)
 }
